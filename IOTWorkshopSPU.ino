@@ -3,12 +3,11 @@
 #include <ArduinoJson.h>
 #include <PubSubClient.h>
 #include <WiFi.h>
-//#include <ESP8266WebServer.h>
-//#include <DNSServer.h>
+
 #include <WiFiManager.h>
 #include <WiFiClientSecure.h>
 #include <Wire.h>
-#include "Adafruit_MCP23008.h"
+#include "Adafruit_MCP23008.h"    // i2c lib to control relay shield
 
 // Modbus
 #include <ModbusMaster.h>
