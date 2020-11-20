@@ -3,8 +3,8 @@
 #include <ArduinoJson.h>
 #include <PubSubClient.h>
 #include <WiFi.h>
-#include <ESP8266WebServer.h>
-#include <DNSServer.h>
+//#include <ESP8266WebServer.h>
+//#include <DNSServer.h>
 #include <WiFiManager.h>
 #include <WiFiClientSecure.h>
 #include <Wire.h>
